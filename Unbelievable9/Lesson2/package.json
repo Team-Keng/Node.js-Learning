@@ -1,0 +1,18 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "Learning node.js-lesson2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Unbelievable9",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "utility": "^1.4.0"
+  }
+}
