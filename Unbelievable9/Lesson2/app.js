@@ -4,12 +4,13 @@ var utility = require('utility');
 var app = express();
 
 app.get ('/', function (request, response) {
+	//这里添加content对应的内容，打印出来更好看
 	var content = request.query.content;
 	var md5Value = utility.md5(content);
 	
-	response.send('The md5 value of ' + content + ' is:\n' +  md5Value);
+	response.send(content + '的MD5值是: ' +  md5Value);
 });
 
 app.listen (3000, function (request, response) {
-	console.log('App is listening port 3000!');
+	console.log('应用在监听3000端口！');
 });
